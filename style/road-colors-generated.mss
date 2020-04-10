@@ -4,10 +4,10 @@
 
 */
 
-@motorway-fill: #dddddd;
-@trunk-fill: #dddddd;
-@primary-fill: #dddddd;
-@secondary-fill: #dddddd;
+@motorway-fill: #ffffff;
+@trunk-fill: #ffffff;
+@primary-fill: #ffffff;
+@secondary-fill: #ffffff;
 
 @motorway-casing: darken(@motorway-fill, 20%);
 @trunk-casing: darken(@trunk-fill, 20%);

@@ -1,5 +1,5 @@
-@protected-area: #008000;
-@aboriginal: #82643a;
+@protected-area: #999;
+@aboriginal: #696969;
 
 @landcover-font-size: 10;
 @landcover-wrap-width-size: 30; // 3 em

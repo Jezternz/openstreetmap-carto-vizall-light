@@ -43,12 +43,8 @@
 @minor-construction: #aaa;
 @service-construction: #aaa;
 
-@destination-marking: #c2e0ff;
-@private-marking: #efa9a9;
-@private-marking-for-red: #C26363;
-
 @tunnel-casing: #aaa;
-@bridge-casing: #555;
+@bridge-casing: #ddd;
 
 @motorway-tunnel-fill: lighten(@motorway-fill, 10%);
 @trunk-tunnel-fill: lighten(@trunk-fill, 10%);
@@ -85,29 +81,29 @@
 @secondary-width-z11:             1.1;
 @tertiary-width-z11:              0.7;
 
-@motorway-width-z12:              3.5;
+@motorway-width-z12:              2.5;
 @motorway-link-width-z12:         1.5;
-@trunk-width-z12:                 3.5;
+@trunk-width-z12:                 2.5;
 @trunk-link-width-z12:            1.5;
-@primary-width-z12:               3.5;
+@primary-width-z12:               2.5;
 @primary-link-width-z12:          1.5;
-@secondary-width-z12:             3.5;
+@secondary-width-z12:             2.5;
 @secondary-link-width-z12:        1.5;
 @tertiary-width-z12:              2.5;
 @tertiary-link-width-z12:         1.5;
 @residential-width-z12:           0.5;
 @unclassified-width-z12:          0.8;
 
-@motorway-width-z13:              6;
-@motorway-link-width-z13:         4;
-@trunk-width-z13:                 6;
-@trunk-link-width-z13:             4;
-@primary-width-z13:               5;
-@primary-link-width-z13:          4;
-@secondary-width-z13:             5;
-@secondary-link-width-z13:        4;
-@tertiary-width-z13:              4;
-@tertiary-link-width-z13:         3;
+@motorway-width-z13:              5;
+@motorway-link-width-z13:         3;
+@trunk-width-z13:                 5;
+@trunk-link-width-z13:             3;
+@primary-width-z13:               4;
+@primary-link-width-z13:          3;
+@secondary-width-z13:             4;
+@secondary-link-width-z13:        3;
+@tertiary-width-z13:              3;
+@tertiary-link-width-z13:         2;
 @residential-width-z13:           2.5;
 @living-street-width-z13:         2;
 @bridleway-width-z13:             0.3;
