@@ -20,7 +20,7 @@
 
 // --- Other ----
 
-@tourism: #660033;
+@tourism: #999;
 @military: #999;
 
 

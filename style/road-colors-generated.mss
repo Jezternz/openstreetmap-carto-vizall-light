@@ -9,10 +9,10 @@
 @primary-fill: #ffffff;
 @secondary-fill: #ffffff;
 
-@motorway-casing: darken(@motorway-fill, 20%);
-@trunk-casing: darken(@trunk-fill, 20%);
-@primary-casing: darken(@primary-fill, 20%);
-@secondary-casing: darken(@secondary-fill, 20%);
+@motorway-casing: darken(@motorway-fill, 5%);
+@trunk-casing: darken(@trunk-fill, 5%);
+@primary-casing: darken(@primary-fill, 5%);
+@secondary-casing: darken(@secondary-fill, 5%);
 
 @motorway-low-zoom: @motorway-fill;
 @trunk-low-zoom: @trunk-fill;
