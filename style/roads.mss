@@ -279,7 +279,7 @@
 @paths-bridge-casing-width:       0.5;
 @paths-tunnel-casing-width:       1;
 
-@junction-text-color:             #960000;
+@junction-text-color:             #575757;
 @halo-color-for-minor-road:       white;
 @lowzoom-halo-color:              white;
 @lowzoom-halo-width:              1;
@@ -2639,27 +2639,21 @@ tertiary is rendered from z10 and is not included in osm_planet_roads. */
 
 #junctions {
   [highway = 'motorway_junction'] {
-    [zoom >= 11] {
+    [zoom >= 15] {
       text-name: "[ref]";
-      text-size: 10;
+      text-size: 11;
       text-fill: @junction-text-color;
       text-min-distance: 2;
       text-face-name: @oblique-fonts;
       text-halo-radius: @standard-halo-radius;
       text-wrap-character: ";";
       text-wrap-width: 2; // effectively break after every wrap character
-      text-line-spacing: -1.5; // -0.15 em
-      [zoom >= 13] {
-        ["name" != null]["ref" = null] {
-          text-name: "[name]";
-        }
-        ["name" != null]["ref" != null] {
-          text-name: [name] + "\n" + [ref];
-        }
+      text-line-spacing: -1.65; // -0.15 em
+      ["name" != null]["ref" = null] {
+        text-name: "[name]";
       }
-      [zoom >= 15] {
-        text-size: 11;
-        text-line-spacing: -1.65; // -0.15 em
+      ["name" != null]["ref" != null] {
+        text-name: [name] + "\n" + [ref];
       }
     }
   }
